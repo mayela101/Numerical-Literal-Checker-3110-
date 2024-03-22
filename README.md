@@ -3,5 +3,7 @@ Accept or reject Python numerical literals as a hands-on programming application
 
 Team Members:
 Mayela Ancheta (@mayela101) Tasks:
+
 Anh Tu Nguyen (@alicenewyen) Tasks: 
+
 Ngoc Chau Nguyen (@NgocChauNguyen-CPP) Tasks:
