@@ -1,34 +1,12 @@
-def is_valid_integer_literal(s):
+def is_valid_decimal_integer(s):
     if len(s) == 0:
         return False
 
-    if s[0] == '0' and len(s) > 1 and s[1] != '_':
-        return False
-    
-    has_digit = False
-    for i in range(len(s)):
-        if s[i] == '_':
-            if not has_digit or (i < len(s) - 1 and s[i+1] == '_'):
+    if s[0] == '0' and len(s) > 1:
+        for i in range(1, len(s)):
+            if s[i] != '_':
                 return False
-            elif not s[i].isdigit():
-                return False
-            else:
-                has_digit = True
 
-    return has_digit
-
-    #    if len(s) == 1 or (s[1] != 'o' and s[1] != 'O' and s[1] != 'x' and s[1] != 'X'):
-    #        return is_valid_decimal_integer(s)
-    #    elif (s[1] == 'o' or s[1] == 'O') and len(s) > 2:
-    #        return is_valid_octal_integer(s[2:])
-    #    elif (s[1] == 'x' or s[1] == 'X') and len(s) > 2:
-    #        return is_valid_hexadecimal_integer(s[2:])
-    #    else:
-    #        return False
-    #else:
-    #    return is_valid_decimal_integer(s)
-
-def is_valid_decimal_integer(s):
     has_digit = False
     for i in range(len(s)):
         if s[i] == '_':
@@ -41,8 +19,11 @@ def is_valid_decimal_integer(s):
     return has_digit
 
 def is_valid_octal_integer(s):
+    if len(s) < 2 or s[0] != '0' or (s[1] != 'o' and s[1] != 'O'):
+        return False
+
     has_digit = False
-    for i in range(len(s)):
+    for i in range(2, len(s)):
         if s[i] == '_':
             if not has_digit or (i < len(s) - 1 and s[i+1] == '_'):
                 return False
@@ -53,9 +34,9 @@ def is_valid_octal_integer(s):
     return has_digit
 
 def is_valid_hexadecimal_integer(s):
-    if len(s) < 3 or s[0] != '0' or (s[1] != 'x' and s[1] != 'X'):
+    if len(s) < 2 or s[0] != '0' or (s[1] != 'x' and s[1] != 'X'):
         return False
-    
+
     has_digit = False
     for i in range(2, len(s)):
         if s[i] == '_':
@@ -108,8 +89,6 @@ def is_valid_digitpart(s):
 
     return has_digit
 
-def is_valid_literal(s):
-    return is_valid_integer_literal(s) or is_valid_floating_point_literal(s)
 
 def checkLiteral (literal_type, s):
     if literal_type == 1:
