@@ -29,7 +29,7 @@ _*All team members collaborated on Extra Credit portion.*_
 ![image](https://github.com/mayela101/Numerical-Literal-Checker/assets/113002207/e43d579e-6667-4d48-9a68-026e549ed307)
 
 ### Octal Integer
-![image](https://github.com/mayela101/Numerical-Literal-Checker/assets/113002207/cc854e90-0345-46a7-9f51-27a5e28307dc)
+![JPEG_chau_NFA_octinteger](https://github.com/mayela101/Numerical-Literal-Checker/assets/143152721/95b4e666-f194-406b-b836-4dc431d87988)
 
 ### Hexadecimal Integer
 ![JPEG_NEW_Hexinteger](https://github.com/mayela101/Numerical-Literal-Checker/assets/143152721/a56c49b4-3e73-4353-9f07-0e76337d0366)
