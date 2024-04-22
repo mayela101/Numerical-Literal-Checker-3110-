@@ -32,7 +32,7 @@ _*All team members collaborated on Extra Credit portion.*_
 ![image](https://github.com/mayela101/Numerical-Literal-Checker/assets/113002207/cc854e90-0345-46a7-9f51-27a5e28307dc)
 
 ### Hexadecimal Integer
-![image](https://github.com/mayela101/Numerical-Literal-Checker/assets/113002207/d6e59a36-bd67-486e-a708-f5d6746b45e8)
+![JPEG_NEW_Hexinteger](https://github.com/mayela101/Numerical-Literal-Checker/assets/143152721/a56c49b4-3e73-4353-9f07-0e76337d0366)
 
 _Each designated .jff file can be found in the ".jff files" folder within the repository._
 
