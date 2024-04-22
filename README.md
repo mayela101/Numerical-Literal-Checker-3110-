@@ -34,6 +34,10 @@ _*All team members collaborated on Extra Credit portion.*_
 ### Hexadecimal Integer
 ![JPEG_NEW_Hexinteger](https://github.com/mayela101/Numerical-Literal-Checker/assets/143152721/a56c49b4-3e73-4353-9f07-0e76337d0366)
 
+### Floating Point Integer
+![image](https://github.com/mayela101/Numerical-Literal-Checker/assets/113002207/be5b1c2a-e054-4149-a6d6-bf960906039e)
+
+
 _Each designated .jff file can be found in the ".jff files" folder within the repository._
 
 ## Code Versions
