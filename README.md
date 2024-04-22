@@ -34,7 +34,7 @@ _*All team members collaborated on Extra Credit portion.*_
 ### Hexadecimal Integer
 ![image](https://github.com/mayela101/Numerical-Literal-Checker/assets/113002207/d6e59a36-bd67-486e-a708-f5d6746b45e8)
 
-
+_Each designated .jff file can be found in the ".jff files" folder within the repository._
 
 ## Code Versions
 **v1.1.0:** Program generalized the verification of all literal inputs by user.
